@@ -1,0 +1,21 @@
+$primary-color : #1C1A47;
+$secondary-color : #262262;
+$black-color : #000;
+$gray-color : #4D4D4D;
+$white-color : #fff;
+
+.text-primary {
+    color: $primary-color;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+.text-gray {
+    color: $gray-color
+}
+
+.text-white {
+    color: $white-color
+}

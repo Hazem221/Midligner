@@ -1,0 +1,17 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .nav-item {
+        margin-inline-end: 48px;
+    }
+
+    .nav-item .nav-link {
+        color: #000;
+        font-size: 20px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        display: inline-block;
+    }
+
+}
