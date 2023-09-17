@@ -1,17 +1,29 @@
-.text-primary {
+.primary-text {
   color: #1C1A47;
 }
 
-.text-secondary {
+.secondary-text {
   color: #262262;
 }
 
-.text-gray {
+.gray-text {
   color: #4D4D4D;
 }
 
-.text-white {
+.white-text {
   color: #fff;
+}
+
+.black-text {
+  color: #000;
+}
+
+.purple-text {
+  color: #4F4C7F;
+}
+
+.violet-text {
+  color: #282464;
 }
 
 @font-face {
@@ -51,4 +63,96 @@ body {
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   display: inline-block;
+}
+
+.slogan {
+  font-size: 24px;
+}
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about__title {
+  font-size: 48px;
+}
+
+.work-flow {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.work-flow__title {
+  font-size: 40px;
+}
+
+.advantages {
+  padding-top: 100px;
+  padding-bottom: 52px;
+  background-color: #F5F4FF;
+}
+.advantages__title {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.advantages__icon-container {
+  padding: 19px 24px;
+  background-color: #CBC8FF;
+  border-radius: 24px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.advantages__icon-container img {
+  max-height: 45px;
+  max-width: 45px;
+}
+.advantages__content {
+  padding: 0 20px;
+  margin-bottom: 3rem;
+}
+.advantages__content p:first-child {
+  font-size: 32px;
+}
+.advantages__content p:last-child {
+  font-size: 18px;
+}
+
+.products-and-kit {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.products-and-kit__title {
+  font-size: 48px;
+}
+
+.our-workflow {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F5F4FF;
+}
+.our-workflow__title {
+  font-size: 40px;
+}
+.our-workflow__wrapper {
+  background-color: #fff;
+  border-radius: 32px;
+  padding: 40px;
+}
+.our-workflow__wrapper .card {
+  border-radius: 24px;
+  padding: 32px;
+  margin-bottom: 30px;
+  border: none;
+}
+.our-workflow__wrapper .card--odd {
+  background-color: #EEEDFC;
+}
+.our-workflow__wrapper .card__heading {
+  font-size: 32px;
+}
+.our-workflow__wrapper .card__content {
+  font-size: 18px;
+}
+.our-workflow__wrapper .card__image img {
+  border-radius: 32px;
+  max-width: 100%;
 }/*# sourceMappingURL=index.css.map */

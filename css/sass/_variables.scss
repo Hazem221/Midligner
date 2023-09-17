@@ -1,21 +1,35 @@
 $primary-color : #1C1A47;
 $secondary-color : #262262;
+$purple-color: #4F4C7F;
 $black-color : #000;
 $gray-color : #4D4D4D;
 $white-color : #fff;
+$violet-color : #282464;
 
-.text-primary {
+.primary-text {
     color: $primary-color;
 }
 
-.text-secondary {
+.secondary-text {
     color: $secondary-color;
 }
 
-.text-gray {
+.gray-text {
     color: $gray-color
 }
 
-.text-white {
+.white-text {
     color: $white-color
+}
+
+.black-text {
+    color: $black-color
+}
+
+.purple-text {
+    color: $purple-color
+}
+
+.violet-text {
+    color: $violet-color;
 }
