@@ -1,0 +1,96 @@
+.footer {
+    background-color: #282464;
+    padding-top: 56px;
+    padding-bottom: 3rem;
+
+    &__logo {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        font-size: 16px;
+        margin-bottom: 24px;
+        max-width: 80%;
+    }
+
+    &__social-icons {
+        ul {
+            list-style: none;
+            padding: 0;
+            gap: 15px;
+
+            li {
+                border-right: 1px solid #fff;
+                padding-right: 15px;
+
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+    }
+
+    &__quick-links {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 12px;
+
+            a {
+                text-decoration: none;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .news-letter {
+        &__content {
+            font-size: 16px;
+            margin-bottom: 32px;
+        }
+
+        .subscribe-input {
+            // border: 1px solid #DADBDC;
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 500px;
+            // margin: auto;
+            // margin-bottom: 80px !important;
+            background-color: #fff;
+
+            input {
+                border: none;
+                border-radius: 30px;
+                padding: 13px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            button {
+                border: none;
+                border-radius: 8px;
+                background-color: #9C9AB8;
+                color: #fff;
+                width: 52px;
+                height: 46px;
+                text-align: center;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .sub-footer {
+        margin-top: 3rem;
+        border-top: 1px solid #fff;
+
+        &__copy-rights {
+            padding-top: 1.5rem;
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+    }
+}
