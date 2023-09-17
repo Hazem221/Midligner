@@ -42,4 +42,19 @@ $(document).ready(function () {
     //   },
     // ],
   });
+
+  $(document).ready(function () {
+    $(".slider").slick({
+      infinite: false,
+      slidesToShow: 1.1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: true,
+      prevArrow: $(".prev-arrow"),
+      nextArrow: $(".next-arrow"),
+      // centerMode: true,
+      // variableWidth: true,
+      // rtl: false,
+    });
+  });
 });
