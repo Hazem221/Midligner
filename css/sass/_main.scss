@@ -2,6 +2,76 @@
     font-size: 24px;
 }
 
+.top-slider {
+    border-bottom-left-radius: 220px;
+    position: relative;
+    background: #F6F6FF;
+
+    /* slider buttons */
+    button.main-next-arrow.slick-arrow,
+    button.main-prev-arrow.slick-arrow {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        content: '';
+        top: 40%;
+
+        &:focus {
+            outline: none;
+        }
+
+        &.slick-disabled {
+            img {
+                opacity: 0;
+            }
+        }
+    }
+
+    button.main-next-arrow.slick-arrow {
+        transform: rotate(180deg);
+        left: 50px;
+    }
+
+    button.main-prev-arrow.slick-arrow {
+        right: 50px;
+    }
+
+    .slick-dots li button:before {
+        font-size: 50px;
+        top: -40px;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #262262;
+    }
+    /* slider buttons */
+
+
+    &__title {
+        font-size: 48px;
+    }
+
+    &__content {
+        font-size: 28px;
+        margin-bottom: 32px;
+    }
+
+    &__contact-us {
+        background-color: #170F49 !important;
+        font-size: 24px !important;
+    }
+
+    &__image {
+        background-color: #fff;
+        border-radius: 65px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
 .about {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -260,3 +330,19 @@
         color: #fff;
     }
 }
+
+
+// .slick-slide img {
+//     margin-bottom: -100px;
+// }
+
+// .slick-slide {
+//     position: relative; // Ensure the slide container is relatively positioned
+// }
+
+// .slick-slide img {
+//     position: absolute;
+//     bottom: -100px; // Extend the image 100px beyond its container's boundary
+//     left: 0;
+//     right: 0;
+// }
