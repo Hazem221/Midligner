@@ -133,6 +133,21 @@ body {
 }
 .about__title {
   font-size: 48px;
+  margin-bottom: 32px;
+}
+.about__video-container {
+  position: relative;
+}
+.about__video-container img {
+  cursor: pointer;
+}
+.about__video-container video {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .work-flow {

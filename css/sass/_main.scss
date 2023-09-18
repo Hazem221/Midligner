@@ -44,6 +44,7 @@
     .slick-dots li.slick-active button:before {
         color: #262262;
     }
+
     /* slider buttons */
 
 
@@ -78,7 +79,27 @@
 
     &__title {
         font-size: 48px;
+        margin-bottom: 32px;
     }
+
+    &__video-container {
+        position: relative;
+
+        img {
+            cursor: pointer;
+        }
+
+        video {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
 }
 
 .work-flow {
@@ -330,19 +351,3 @@
         color: #fff;
     }
 }
-
-
-// .slick-slide img {
-//     margin-bottom: -100px;
-// }
-
-// .slick-slide {
-//     position: relative; // Ensure the slide container is relatively positioned
-// }
-
-// .slick-slide img {
-//     position: absolute;
-//     bottom: -100px; // Extend the image 100px beyond its container's boundary
-//     left: 0;
-//     right: 0;
-// }

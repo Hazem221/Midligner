@@ -21,3 +21,12 @@ $(document).ready(function () {
     });
   });
 });
+
+function playVideo() {
+  var thumbnail = document.querySelector("img");
+  var video = document.querySelector("video");
+
+  thumbnail.style.display = "none";
+  video.style.display = "block";
+  video.play();
+}
