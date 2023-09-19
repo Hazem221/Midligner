@@ -60,6 +60,7 @@
     &__contact-us {
         background-color: #170F49 !important;
         font-size: 24px !important;
+        border: none !important;
     }
 
     &__image {
@@ -115,6 +116,10 @@
     padding-top: 100px;
     padding-bottom: 52px;
     background-color: #F5F4FF;
+
+    &__header {
+        font-size: 32px;
+    }
 
     &__title {
         font-size: 48px;

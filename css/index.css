@@ -117,6 +117,7 @@ body {
 .top-slider__contact-us {
   background-color: #170F49 !important;
   font-size: 24px !important;
+  border: none !important;
 }
 .top-slider__image {
   background-color: #fff;
@@ -162,6 +163,9 @@ body {
   padding-top: 100px;
   padding-bottom: 52px;
   background-color: #F5F4FF;
+}
+.advantages__header {
+  font-size: 32px;
 }
 .advantages__title {
   font-size: 48px;
