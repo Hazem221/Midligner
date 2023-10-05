@@ -22,11 +22,13 @@ $(document).ready(function () {
   });
 });
 
-function playVideo() {
+function playVideo(videoId) {
   var thumbnail = document.querySelector("img");
-  var video = document.querySelector("video");
+  var video = document.querySelector("#" + videoId);
 
-  thumbnail.style.display = "none";
-  video.style.display = "block";
-  video.play();
+  if (thumbnail && video) {
+    thumbnail.style.display = "none";
+    video.style.display = "block";
+    video.play();
+  }
 }

@@ -214,8 +214,120 @@
     }
 }
 
-.testimonials {
-    background-color: #F7F7FB;
+// .testimonials {
+//     background-color: #F7F7FB;
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+
+//     &__title {
+//         font-size: 48px;
+//     }
+
+
+//     .card {
+//         background-color: #282464;
+//         color: #fff;
+//         border-radius: 22px;
+//         position: relative;
+//         overflow: hidden;
+//         padding-inline-start: 2rem;
+
+//         &__quote {
+//             font-size: 24px;
+//             margin-bottom: 3rem;
+//             font-weight: 300;
+
+//         }
+
+//         .author {
+//             &__name {
+//                 font-size: 16px;
+//                 font-weight: 400;
+//             }
+
+//             &__problem {
+//                 font-size: 14px;
+//                 font-weight: 400;
+//             }
+//         }
+//     }
+
+//     .slick-initialized .slick-slide {
+//         margin-inline-end: 24px;
+//     }
+
+//     .container {
+//         position: relative;
+//     }
+
+//     button.next-arrow.slick-arrow,
+//     button.prev-arrow.slick-arrow {
+//         background-color: transparent;
+//         border: none;
+//         position: absolute;
+//         content: '';
+//         top: -75px;
+//         right: 0;
+
+//         &:focus {
+//             outline: none;
+//         }
+
+//         &.slick-disabled {
+//             img {
+
+//                 opacity: 0.5;
+//             }
+//         }
+//     }
+
+//     button.prev-arrow.slick-arrow {
+//         transform: rotate(180deg);
+//         right: 70px;
+//         top: -74px;
+//     }
+
+//     .slick-dots li button:before {
+//         font-size: 50px;
+//         top: 30px;
+//     }
+
+//     .slick-dots li.slick-active button:before {
+//         color: #262262;
+//     }
+
+// }
+
+.treatable-cases {
+    margin-top: 56px;
+    padding: 56px 48px 20px;
+    background: conic-gradient(from 61.9deg at 49.58% 49.36%, rgba(201, 189, 255, 0.2) 0deg, rgba(181, 181, 255, 0.12) 322.08deg, rgba(201, 189, 255, 0.2) 360deg);
+    border-radius: 40px;
+
+    &__title {
+        font-size: 48px;
+        margin-bottom: 32px;
+    }
+
+    .card {
+        padding: 32px 24px 32px 24px;
+        border-radius: 32px;
+        border: 1px solid #DFDDFF;
+        text-align: center;
+        height: 100%;
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__description {
+            font-size: 18px;
+            color: #3F3F3F;
+        }
+    }
+}
+
+.videos {
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -223,79 +335,25 @@
         font-size: 48px;
     }
 
-
-    .card {
-        background-color: #282464;
-        color: #fff;
-        border-radius: 22px;
+    &__video-container {
         position: relative;
-        overflow: hidden;
-        padding-inline-start: 2rem;
 
-        &__quote {
-            font-size: 24px;
-            margin-bottom: 3rem;
-            font-weight: 300;
-
+        img {
+            cursor: pointer;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 40px;
         }
 
-        .author {
-            &__name {
-                font-size: 16px;
-                font-weight: 400;
-            }
-
-            &__problem {
-                font-size: 14px;
-                font-weight: 400;
-            }
+        video {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     }
-
-    .slick-initialized .slick-slide {
-        margin-inline-end: 24px;
-    }
-
-    .container {
-        position: relative;
-    }
-
-    button.next-arrow.slick-arrow,
-    button.prev-arrow.slick-arrow {
-        background-color: transparent;
-        border: none;
-        position: absolute;
-        content: '';
-        top: -75px;
-        right: 0;
-
-        &:focus {
-            outline: none;
-        }
-
-        &.slick-disabled {
-            img {
-
-                opacity: 0.5;
-            }
-        }
-    }
-
-    button.prev-arrow.slick-arrow {
-        transform: rotate(180deg);
-        right: 70px;
-        top: -74px;
-    }
-
-    .slick-dots li button:before {
-        font-size: 50px;
-        top: 30px;
-    }
-
-    .slick-dots li.slick-active button:before {
-        color: #262262;
-    }
-
 }
 
 

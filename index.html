@@ -145,7 +145,7 @@
       <div class="container">
 
         <div class="about__video-container">
-          <img src="./images/play-video.png" alt="Video Thumbnail" class="w-100" onclick="playVideo()" />
+          <img src="./images/play-video.png" alt="Video Thumbnail" class="w-100" onclick="playVideo('videoPlayer')" />
           <video id="videoPlayer" controls>
             <source src="video.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -351,17 +351,99 @@
 
     </section>
 
-    <section class="testimonials">
-      <!-- <div class="container"> -->
-      <h2 class="primary-text text-center testimonials__title mb-5">Our Happy Cases</h2>
-      <!-- </div> -->
+    <section class="container">
+      <div class="treatable-cases">
+        <p class="slogan purple-text fw-bold text-center mb-2">Start Your Journey</p>
+        <h2 class="primary-text text-center treatable-cases__title">Treatable Cases</h2>
 
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card__image">
+                <img src="./images/over-crowded.png" alt="over-crowded">
+              </div>
+              <h3 class="card__title primary-text mb-2">Over Crowded</h3>
+              <p class="card__description">
+                Occurs when there is insufficient room to fit all teeth leading to plaque accumilation
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card__image">
+                <img src="./images/open-bite.png" alt="open-bite">
+              </div>
+              <h3 class="card__title primary-text mb-2">Open Bites</h3>
+              <p class="card__description">
+                Occurs when there is excessive space between upper and lower front teeth
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card__image">
+                <img src="./images/over-bite.png" alt="over-bite">
+              </div>
+              <h3 class="card__title primary-text mb-2">Over Bite</h3>
+              <p class="card__description">
+                Occurs when upper teeth covering lower teeth upnormally
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card__image">
+                <img src="./images/under-bite.png" alt="under-bite">
+              </div>
+              <h3 class="card__title primary-text mb-2">Under Bite</h3>
+              <p class="card__description">
+                Occurs when lower teeth bite over your front teeth
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card__image">
+                <img src="./images/cross-bite.png" alt="cross-bite">
+              </div>
+              <h3 class="card__title primary-text mb-2">Cross Bite</h3>
+              <p class="card__description">
+                Occurs when upper and lower jaws are misaligned
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card__image">
+                <img src="./images/gapped-teeth.png" alt="gapped-teeth">
+              </div>
+              <h3 class="card__title primary-text mb-2">Gapped teeth (Diastema)</h3>
+              <p class="card__description">
+                Occurs when spaces between teeth are too wide this can cause gum problem
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- <section class="testimonials">
+      <h2 class="primary-text text-center testimonials__title mb-5">Our Happy Cases</h2>
       <div class="container">
         <div class="slider">
           <div class="card">
             <div class="row align-items-center">
               <div class="col-12 col-lg-6">
-                <!-- Content on the left -->
                 <div class="card-body">
                   <blockquote class="card__quote mb-6">Love the simplicity of the service and the prompt customer
                     support.
@@ -375,11 +457,9 @@
                       Had Spacing in her teeth
                     </p>
                   </div>
-                  <!-- <h5 class="card-title">Card Title 1</h5> -->
                 </div>
               </div>
               <div class="col-12 col-lg-6">
-                <!-- Image on the right -->
                 <img src="./images/testimonials.png" class="card-img w-100" alt="testimonials">
               </div>
             </div>
@@ -388,7 +468,6 @@
           <div class="card">
             <div class="row align-items-center">
               <div class="col-12 col-lg-6">
-                <!-- Content on the left -->
                 <div class="card-body">
                   <blockquote class="card__quote mb-6">Love the simplicity of the service and the prompt customer
                     support.
@@ -402,11 +481,9 @@
                       Had Spacing in her teeth
                     </p>
                   </div>
-                  <!-- <h5 class="card-title">Card Title 1</h5> -->
                 </div>
               </div>
               <div class="col-12 col-lg-6">
-                <!-- Image on the right -->
                 <img src="./images/testimonials.png" class="card-img w-100" alt="testimonials">
               </div>
             </div>
@@ -415,7 +492,6 @@
           <div class="card">
             <div class="row align-items-center">
               <div class="col-12 col-lg-6">
-                <!-- Content on the left -->
                 <div class="card-body">
                   <blockquote class="card__quote mb-6">Love the simplicity of the service and the prompt customer
                     support.
@@ -429,11 +505,9 @@
                       Had Spacing in her teeth
                     </p>
                   </div>
-                  <!-- <h5 class="card-title">Card Title 1</h5> -->
                 </div>
               </div>
               <div class="col-12 col-lg-6">
-                <!-- Image on the right -->
                 <img src="./images/testimonials.png" class="card-img w-100" alt="testimonials">
               </div>
             </div>
@@ -447,6 +521,35 @@
           <button class="next-arrow">
             <img src="./images/slider-arrow.svg" alt="">
           </button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="videos">
+      <h2 class="primary-text text-center videos__title mb-5">We achieve beyond your mind believes</h2>
+      <div class="container">
+        <div class="row">
+
+
+          <div class="col-12 col-lg-6 mb-5">
+            <div class="videos__video-container">
+              <img src="./images/play-video.png" alt="Video Thumbnail" class="w-100" onclick="playVideo('video1')" />
+              <video id="video1" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 mb-5">
+            <div class="videos__video-container">
+              <img src="./images/play-video.png" alt="Video Thumbnail" class="w-100" onclick="playVideo('video2')" />
+              <video id="video2" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </section>
