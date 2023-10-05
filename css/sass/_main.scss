@@ -4,6 +4,7 @@
 
 .top-slider {
     border-bottom-left-radius: 220px;
+    border-bottom-right-radius: 220px;
     position: relative;
     background: #F6F6FF;
 
@@ -54,10 +55,11 @@
 
     &__content {
         font-size: 28px;
-        margin-bottom: 32px;
+        // margin-bottom: 32px;
     }
 
     &__contact-us {
+        margin-top: 32px;
         background-color: #170F49 !important;
         font-size: 24px !important;
         border: none !important;
