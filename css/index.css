@@ -165,6 +165,9 @@ body {
   padding-bottom: 52px;
   background-color: #F5F4FF;
 }
+.advantages__img-container {
+  margin-bottom: 40px;
+}
 .advantages__header {
   font-size: 32px;
 }
